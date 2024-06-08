@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 export default function SearchInput() {
   const [searchQuery, setSearchQuery] = useState('');
   return (
-    <View>
+    <View className='mb-4'>
       <TextInput
         value={searchQuery}
         onChangeText={(val) => setSearchQuery(val)}
