@@ -16,7 +16,7 @@ export default function AppNavigation() {
           options={{
             headerTitle: 'Notes App',
             headerTitleAlign: 'center',
-            headerTitleStyle: { fontWeight: 700, fontSize: 22 },
+            headerTitleStyle: {fontSize: 22, fontWeight:'800' },
             headerLeft: ProfileAvatar,
             headerRight: FilterButton,
           }}

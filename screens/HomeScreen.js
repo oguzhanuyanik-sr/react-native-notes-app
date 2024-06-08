@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native';
 import React from 'react';
+import SearchInput from '../components/SearchInput';
+import { View } from 'react-native';
 
 export default function HomeScreen() {
   return (
     <View>
-      <Text className='text-5xl'>HomeScreen</Text>
+      <SearchInput />
     </View>
   );
 }
